@@ -18,3 +18,17 @@ console.log(gameName.indexOf("e"));
 
 const newString = gameName.substring(0, 5)
 console.log(newString);
+
+const anotherString = gameName.slice(-10, 5)
+console.log(anotherString);
+
+const newString1 = "    running   "
+console.log(newString1.trim());
+
+const url = "https://ancd.com/abc%20def"
+
+console.log(url.replace('%20', '-'));
+
+console.log(url.includes("abcdfa"));
+
+console.log(gameName.split("-"));
